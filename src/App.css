@@ -1,38 +1,409 @@
-.App {
+@import '~antd/dist/antd.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* @font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  /*src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.Rectangle-1 {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-image: linear-gradient(to bottom, var(--pale-blue), rgba(241, 254, 254, 0));
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left-col h1 {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+}
+
+.right-col .nav .nav-item {
+  padding: 5px 20px;
+  margin: auto;
+}
+
+.right-col .home {
+  border-bottom: 3px solid #00dbd0;
+}
+
+.right-col .contact {
+  border: 3px solid #00dbd0;
+  border-radius: 10px;
+}
+
+a {
+  color: black;
+}
+
+.box-2 {
+  margin: 100px auto;
+  padding: 0;
+  display: flex;
+}
+
+.box-2 .left-row {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px 0 0;
+}
+
+.box-2 .row h2 {
+  margin: 10px 0;
+}
+
+.box-2 .row p {
+  font-size: 14px;
+  max-width: 350px;
+}
+
+.box-2 .row .btn {
+  background-color: #00dbd0;
+  margin: 0 auto 0 0;
+  padding: 5px 20px;
+}
+
+
+.box-2 .right-row {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.box-2 .right-row .img-1 {
+  position: absolute;
+  width: 250px;
+  height: 370px;
+  left: 100px;
+  z-index: 1;
+}
+
+.box-2 .right-row .img-2 {
+  position: relative;
+  width: 179px;
+  height: 170px;
+  left: 250px;
+  top: 50px;
+}
+
+.Rectangle-2 {
+  margin: 100px auto 0 auto;
+  padding: 5px auto 60px auto;
+}
+
+.Rectangle-2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rectangle-2 div p {
+  max-width: 400px;
+  font-size: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Rectangle-2 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  margin: 100px auto 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Rectangle-3 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 120px auto;
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+
+.Rectangle-3 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.Rectangle-3 p {
+  text-align: center;
+  font-size: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.Rectangle-3 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px auto;
+  border: none;
+}
+
+.Rectangle-3 .dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.Rectangle-3 .dot div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.Rectangle-4 {
+  margin: 10px auto;
+  padding: auto;
+}
+
+.Rectangle-4 .logo {
+  position: absolute;
+  height: 100vh;
+  transform: rotate(-10deg);
+  left: -470px;
+}
+
+.Rectangle-4 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  padding: auto;
+}
+
+.Rectangle-4 .content .myPhoto {
+  border-radius: 50%;
+  max-width: 100px;
+  max-width: 100px;
+  margin: auto;
+}
+
+.material-icons { 
+  color:#00dbd0; 
+}
+
+.Rectangle-4 .content p {
+  font-size: 10px;
+  line-height: 2px;
+}
+
+.Rectangle-4 .content .dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.Rectangle-4 .content .dot div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #00dbd0;
+}
+
+.Rectangle-4 .content .subscribe {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rectangle-4 .content .subscribe p {
+  font-size: 10px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.Rectangle-4 .content .subscribe form {
+  margin: auto;
+  padding: auto;
+  display: flex;
+}
+
+.Rectangle-4 .content .subscribe form input {
+  border: none;
+  border-style: hidden;
+  padding: 2px 10px;
+  font-size: 20px;
+}
+
+.Rectangle-4 .content .subscribe form .btn {
+  background-color: #00dbd0;
+  border-radius: 40px;
+  border: none;
+}
+
+.Rectangle-5 {
+  margin: 10px auto;
+}
+
+.Rectangle-5 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rectangle-5 .content h2 {
+  margin: 20px auto;
+}
+
+.Rectangle-5 .content p {
+  font-size: 14px;
+  margin: 0 auto 50px auto;
+  max-width: 450px;
+  text-align: center;
+}
+
+.Rectangle-5 .content .card-deck {
+  margin: auto;
+}
+
+.Rectangle-5 .content .card-deck .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.Rectangle-5 .content .card-deck .card img {
+  background-size: cover;
+  height: 50vh;
+  width: 20vw;
+}
+
+.Rectangle-5 .content .card-deck .card .card-body .card-title {
+  font-weight: bolder;
+}
+
+.Rectangle-5 .content .card-deck .card .box {
+  position: relative;
+
+}
+
+.Rectangle-5 .content .card-deck .card .box .more {
+  border-bottom: 2px solid #00dbd0;
+  position: absolute;
+  left: 45%;
+  right: 45%;
+}
+
+footer {
+  margin: 0;
+  padding: 10px;
+  background-image: url(./images/229.png);
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer .container {
+  margin: auto;
+  padding: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer .container .row {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+footer .container .row .div-1 {
+  width: 300px;
+}
+
+footer .container .row .div-2 {
+  width: 300px;
+}
+
+footer .container .row .div-3 {
+  width: 300px;
+}
+
+footer .container .row .div-1 p {
+  margin: 10px auto;
+  font-size: 10px;
+}
+
+.bordr {
+  width: 100px;
+  border-bottom: 2px solid #00dbd0 !important;
+  margin: 0 auto 10px 0;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div-2 h4 {
+  color: white;
+}
+
+.div-2 .bordr {
+  margin: 0 auto 10px 0;
+}
+
+.div-3 h4 {
+  color: white;
+}
+
+.div-3 .social {
+  margin: 10px auto 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 150px;
 }
