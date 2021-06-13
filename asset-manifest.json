@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/organicBlog/static/css/main.72ce6e68.chunk.css",
+    "main.js": "/organicBlog/static/js/main.ac3fbe1f.chunk.js",
+    "main.js.map": "/organicBlog/static/js/main.ac3fbe1f.chunk.js.map",
+    "runtime-main.js": "/organicBlog/static/js/runtime-main.ef5849cf.js",
+    "runtime-main.js.map": "/organicBlog/static/js/runtime-main.ef5849cf.js.map",
+    "static/css/2.0ca37746.chunk.css": "/organicBlog/static/css/2.0ca37746.chunk.css",
+    "static/js/2.5b6e8f3a.chunk.js": "/organicBlog/static/js/2.5b6e8f3a.chunk.js",
+    "static/js/2.5b6e8f3a.chunk.js.map": "/organicBlog/static/js/2.5b6e8f3a.chunk.js.map",
+    "index.html": "/organicBlog/index.html",
+    "static/css/2.0ca37746.chunk.css.map": "/organicBlog/static/css/2.0ca37746.chunk.css.map",
+    "static/css/main.72ce6e68.chunk.css.map": "/organicBlog/static/css/main.72ce6e68.chunk.css.map",
+    "static/js/2.5b6e8f3a.chunk.js.LICENSE.txt": "/organicBlog/static/js/2.5b6e8f3a.chunk.js.LICENSE.txt",
+    "static/media/134.efbd04e6.png": "/organicBlog/static/media/134.efbd04e6.png",
+    "static/media/195.71ea1be1.png": "/organicBlog/static/media/195.71ea1be1.png",
+    "static/media/228.317690fe.png": "/organicBlog/static/media/228.317690fe.png",
+    "static/media/App.css": "/organicBlog/static/media/229.3fc7b986.png",
+    "static/media/myPhoto.ec1c7304.jpg": "/organicBlog/static/media/myPhoto.ec1c7304.jpg",
+    "static/media/photo1.61060443.jpg": "/organicBlog/static/media/photo1.61060443.jpg",
+    "static/media/photo2.0dc4e287.jpg": "/organicBlog/static/media/photo2.0dc4e287.jpg",
+    "static/media/photo3.855967d8.jpg": "/organicBlog/static/media/photo3.855967d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef5849cf.js",
+    "static/css/2.0ca37746.chunk.css",
+    "static/js/2.5b6e8f3a.chunk.js",
+    "static/css/main.72ce6e68.chunk.css",
+    "static/js/main.ac3fbe1f.chunk.js"
+  ]
+}
